@@ -1,0 +1,99 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands"!important;
+}
+
+@media screen and (min-width: 769px){
+    .pageTitle{
+      top:50%;
+      height: 114px;
+      margin-top: -57px;
+    }
+}
+
+.pageTitle:before {
+  top: -130%;
+}
+
+.pageTitle:after {
+  bottom: -130%;
+}
+
+.contactme{
+	position: fixed;
+	top:25%;
+}
+
+.icon-network{
+	display: flex;
+	justify-content: space-between;
+	padding-top:82px;
+}
+.icon-network i{
+	font-size: 30px;
+  color: #535353;
+}
+
+.email{
+  padding-top:20px;
+  font-size: 24px; 
+  font-weight: 600;
+}
+.email a{
+  color: #6B4AFF; 
+}
+
+@media screen and (max-width: 768px){
+  .contact-text{
+    font-size: 14px;
+  }
+@media screen and (max-width: 576px){
+
+  .contactme{
+  position: fixed;
+  top:120px;
+  }
+
+  .contact-text{
+    font-size: 14px;
+    text-align: right;
+    font-weight: 400;
+  }
+
+  .email{
+  font-size: 18px;
+  text-align: right;
+  padding-top: 8px;
+  }
+
+  .email a:hover{
+    text-decoration: none;
+  }
+
+  .icon-network{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  padding-top:32px;
+  padding-right: 8px;
+  }
+
+  .icon-network i{
+  font-size: 20px;
+  padding-bottom: 45px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
