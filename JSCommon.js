@@ -4,13 +4,13 @@ var isShowSideBar = false;
   function Opensidenav(){
     if (isShowSideBar == false) {
       document.getElementById("mySidenav").classList.add("open");
-      document.getElementsByClassName("img-action-menu")[0].src = "Images/Back-ic.svg";
+      document.getElementsByClassName("img-action-menu")[0].src = "images/Back-ic.svg";
       document.getElementById("myPageTitle").style.display = 'none';
       isShowSideBar = true;
     }
     else {
       document.getElementById("mySidenav").classList.remove("open");
-      document.getElementsByClassName("img-action-menu")[0].src = "Images/Menu-ic.svg";
+      document.getElementsByClassName("img-action-menu")[0].src = "images/Menu-ic.svg";
       document.getElementById("myPageTitle").style.display = "block";
       isShowSideBar = false;
     }
@@ -20,7 +20,7 @@ var isShowSideBar = false;
     if (event.target.id != "mySidenav" &&
         event.target.className != "img-action-menu") {
       document.getElementById("mySidenav").classList.remove("open");
-      document.getElementsByClassName("img-action-menu")[0].src = "Images/Menu-ic.svg";
+      document.getElementsByClassName("img-action-menu")[0].src = "images/Menu-ic.svg";
       document.getElementById("myPageTitle").style.display = "block";
       isShowSideBar = false;
     }
