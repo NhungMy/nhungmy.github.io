@@ -3,7 +3,7 @@ var isShowWindowItem = false;
     // gridButton.addEventListener('click', function(e) {
     function changelayout(){
         if (isShowWindowItem == true) {
-            document.getElementById("myGridButton").src ="image/Grid-window-ic.svg";
+            document.getElementById("myGridButton").src ="Images/Grid-window-ic.svg";
             document.getElementById("window-container").style.display = "none";
             document.getElementById("list-container").style.display = "block";
             document.getElementById("text-list-view").style.display="block";
@@ -11,7 +11,7 @@ var isShowWindowItem = false;
             document.documentElement.scrollTop = 0;
             isShowWindowItem = false;
         } else {
-            document.getElementById("myGridButton").src ="image/Grid-list-ic.svg";
+            document.getElementById("myGridButton").src ="Images/Grid-list-ic.svg";
             document.getElementById("window-container").style.display = "block";
             document.getElementById("list-container").style.display = "none";
             document.getElementById("text-list-view").style.display="none";
